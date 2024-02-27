@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .text-left {
+    text-align: left;
+}
+.header {
+    display: flex;
+    align-items: center; /* 垂直居中对齐 */
+}
+  
+  .flex-row {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  
+  
+  .city {
+    flex: 1;
+    font-size: 1.1rem;
+  }
+  
+  .name {
+    flex: 4;
+    font-size: 1.3rem;
+  }
+
+  .search-icon {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .banner {
+    position: relative;
+    height: 15rem;
+    text-align: center;
+    line-height: 15rem;
+    font-size: 2rem;
+    background-color: rgb(200, 198, 198);
+  }
+  
+  .banner_ul {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 1rem;
+  }
+  
+  .banner_ul li {
+    margin: 0 0.8rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 2px solid rgb(171, 171, 248);
+    border-radius: 50%;
+  }
+  
+  .banner_ul li.you {
+    background-color: rgb(148, 147, 147);
+  }
+  
+  .body {
+    margin-top: 1rem;
+    height: 35rem;
+    overflow: auto;
+  }
+  
+  .card {
+    padding: 0.5rem 0.1rem 0.7rem 0.5rem;
+    height: 9rem;
+    /* background-color: gray; */
+    border: 1px solid blue;
+  }
+  
+  .card_img {
+    flex: 1;
+    margin-right: 0.5rem;
+    border: 1px solid blue;
+  }
+  
+  .card_body {
+    flex: 3;
+  }
+  
+  .card_name {
+    flex: 1;
+    margin-bottom: 0.8rem;
+    width: 65%;
+    border: 1px solid blue;
+    text-align: center; /* 文本水平居中 */
+    display: flex; /* 设置为 Flex 容器 */
+    justify-content: center; /* 文本水平居中 */
+    align-items: center; /* 文本垂直居中 */
+    font-size: 1.4rem;
+  }
+  
+  
+  
+  .card_text {
+    flex: 1;
+    width: 90%;
+    border: 1px solid blue;
+  }
+  
+  .blue-text {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .card_xinxi {
+    flex: 1;
+  }
+  
+  .card_fen {
+    flex: 1;
+    margin-bottom: 1rem;
+    border: 1px solid blue;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.4rem;
+  }
+  
+  .card_btn {
+    flex: 1;
+    border-radius: 13px;
+    background-color: red;
+    color: #fff;
+    font-size: 1.1rem;
+  }
+  
+  .foot {
+    height: 4rem;
+    border: 1px solid blue; /* 蓝色边框，边框粗细1px */
+  }
+  
+  .tab-container {
+    padding: 0 1rem; /* 内边距 */
+  }
+  
+  .tab {
+    height: 100%;
+  }
+  
+  .tab ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .tab ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    font-size: 1rem;
+  }
+  
+  .tab-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon-box {
+    width: 2.5rem; /* 宽度调大 */
+    height: 2rem; /* 高度调大 */
+    background-color: #fff; /* 背景色 */
+    border: 1px solid blue; /* 边框，边框粗细1px */
+    text-align: center; /* 文本居中 */
+    padding: 0.2rem; /* 内边距 */
+  }
+  
+  .icon-text {
+    font-size: 0.8rem; /* 文本字体大小 */
+  }
+  
+  .tab-text {
+    margin-top: 0.2rem; /* 间距 */
+  }
+  
+  
+  
